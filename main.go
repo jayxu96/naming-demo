@@ -5,6 +5,7 @@ import (
 
 	naming "github.com/jayxu96/baby-naming/naming"
 	naming2 "github.com/jayxu96/baby-naming/v2/naming"
+	naming3 "github.com/jayxu96/baby-naming/v3/naming"
 )
 
 func main() {
@@ -16,6 +17,7 @@ func main() {
     var lastName string
     var gender string
     var male bool
+    var minLen int
     if version == 1 {
         fmt.Println("***** This is a Baby Naming Generator V1 *****")
         fmt.Println("Please enter your Last Name: " )
@@ -41,7 +43,23 @@ func main() {
         }
         fmt.Println("Congrats! The baby name is " + naming2.CreateBabyName(male, lastName))
     } else if version == 3 {
-        fmt.Println("Congrats! The baby name is " + naming2.CreateBabyName(male, lastName))
+        fmt.Println("***** This is a Baby Naming Generator *****")
+        fmt.Println("1. Please enter your Last Name: " )
+        fmt.Scanln(&lastName)
+        fmt.Println("2. Is your baby a boy or girl?")
+        fmt.Scanln(&gender)
+        fmt.Println("Your baby is a " + gender)
+        if gender == "boy" {
+           male = true
+        } else if gender == "girl" {
+          male = false
+        } else {
+          fmt.Println ("Sorry, this generator does not support generate names for other genders.")
+          return
+        }
+        fmt.Println("Name length: ")
+        fmt.Scanln(&minLen)
+        fmt.Println("Congrats! The baby name is " + naming3.CreateBabyName(male, minLen, lastName))
     } else {
         fmt.Println ("Sorry, no such version")
         return

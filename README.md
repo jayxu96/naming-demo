@@ -1,3 +1,5 @@
 Damo project for generating random name of a baby
 
-Using mdoule gitlab.eng.vmware.com/jayc-personal/baby-naming
+Using module gitlab.eng.vmware.com/jayc-personal/baby-naming
+gitlab.eng.vmware.com/jayc-personal/baby-naming/v2
+gitlab.eng.vmware.com/jayc-personal/baby-naming/v3

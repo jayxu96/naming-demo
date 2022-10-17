@@ -1,4 +1,6 @@
 github.com/jayxu96/baby-naming v1.0.1 h1:VYy5Np7qBA5r9FBuAK0K+gWuunC+5KZnDC2fVR7RWoc=
 github.com/jayxu96/baby-naming v1.0.1/go.mod h1:w6mILj1/phfp3n31grtk+zORjU2WuTawkSG2vQxQb4A=
-github.com/jayxu96/baby-naming/v2 v2.0.1 h1:Wd+aeXG7uswjysUvYk3iB6g8LUvMXYZKv7ZD7ZLeEJE=
-github.com/jayxu96/baby-naming/v2 v2.0.1/go.mod h1:PK6rjisqDMY+RmNsmeelxb6p5Iwah1FKyJOj60lUH3c=
+github.com/jayxu96/baby-naming/v2 v2.0.2 h1:w2yEbVoyhy4fH6I0EyzdKU5eUCqCjicGb2wnVlvP8hg=
+github.com/jayxu96/baby-naming/v2 v2.0.2/go.mod h1:PK6rjisqDMY+RmNsmeelxb6p5Iwah1FKyJOj60lUH3c=
+github.com/jayxu96/baby-naming/v3 v3.0.1 h1:Vhd9CLW4e6W4I3BMrE/pIgAfKUEDxJN1m13C0wdqXNs=
+github.com/jayxu96/baby-naming/v3 v3.0.1/go.mod h1:ywg7mFVFsBFA/80AE5VENZsSZgb+j3yLYM5TgCdNQIM=
